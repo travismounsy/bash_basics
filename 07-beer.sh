@@ -43,3 +43,24 @@ while [ $count -ge 0 ]; do
 	((count = count - 1))
 	
 done
+#now we count number of dumplings
+echo "Now we sing about dumplings"
+echo "How many dumplings?"
+read count
+
+while [ $count -ge 0 ]; do
+	if [ $count -ge 2 ]; then
+		echo "$count declious dumplings on my plate"
+		echo "I couldn't wait"
+		echo "I ate one!"
+		echo "It was yummy I want more!"
+	else
+		echo "$count declious dumplings on my plate"
+		echo "I couldn't wait"
+		echo "I ate one!"
+		echo "It was yummy I want more!"
+	fi
+	
+	((count = count - 1))
+	
+done
